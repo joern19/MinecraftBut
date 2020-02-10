@@ -1,0 +1,22 @@
+name: MinecraftBut
+version: 1.0.3
+api-version: 1.14
+author: Joern19
+main: minecraftbut.MinecraftBut
+commands:
+    start:
+        description: Start the Game Minecraft, but...
+        usage: /start <%on|off%>
+        permission: hi.start
+    pause:
+        discription: Pause the Timer
+        usage: /pause
+        permission: hi.pause
+    reset:
+        discription: Reset and pauses the Timer
+        usage: /reset
+        permission: hi.reset
+    gui:
+        discription: Opens the GUI
+        usage: /gui
+        permission: hi.gui
